@@ -3,8 +3,8 @@ import pprint
 import time
 import datetime
 
-access = "LFtnM2WspI7TBJqkTEJg5lhVYd5ZZB48MJf2GeLa"          # 본인 값으로 변경
-secret = "LYHByNlrfxyoS6Sd3xxEsZMFJ58UHvB633DhS7vm"          # 본인 값으로 변경
+access = ""          # 본인 값으로 변경
+secret = ""          # 본인 값으로 변경
 upbit = pyupbit.Upbit(access, secret)
 balances = upbit.get_balances()
 balance = upbit.get_balance("KRW-ELF")
